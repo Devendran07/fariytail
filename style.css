@@ -1,0 +1,36 @@
+*{
+    margin: 10px 4px;
+    padding: 2px;
+}
+.container1>h1{
+    text-align: center;
+    text-decoration: underline;
+    color: yellowgreen;
+    
+}
+.container1>p:hover{
+    color: crimson;
+
+}
+
+.container{
+    background-color: blue;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    /*align-items: flex-end;*/
+    
+}
+
+
+
+
+
+.container>div{
+    background-color: aqua;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+
+}
